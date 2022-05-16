@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="strBrowser" value="edge"/>
+  <test name="Test-1">
+    <parameter name="strBrowser" value="chrome"/>
+    <classes>
+      <class name="listeners.TestNg_Parallel"/>
+    </classes>
+  </test> <!-- Test-1 -->
+  <test name="Test-2">
+    <parameter name="strBrowser" value="edge"/>
+    <classes>
+      <class name="listeners.TestNg_Parallel"/>
+    </classes>
+  </test> <!-- Test-2 -->
+</suite> <!-- Failed suite [Suite] -->

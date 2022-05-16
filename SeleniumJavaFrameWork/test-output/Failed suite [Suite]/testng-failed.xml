@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="listeners.TestNg_Listeners"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="listeners.TestNg_ListenerTC1"/>
+      <class name="listeners.TestNg_ListenerTC3"/>
+      <class name="listeners.TestNg_ListenerTC2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="listeners.TestNg_ListenerTC3">
+        <methods>
+          <include name="TC2"/>
+          <include name="TC3"/>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC3 -->
+      <class name="listeners.TestNg_ListenerTC1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC2"/>
+          <include name="TC3"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC1 -->
+      <class name="listeners.TestNg_ListenerTC2">
+        <methods>
+          <include name="TC2"/>
+          <include name="tearDown"/>
+          <include name="TC3"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="listeners.TestNg_ListenerTC3">
+        <methods>
+          <include name="TC2"/>
+          <include name="TC3"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC3 -->
+      <class name="listeners.TestNg_ListenerTC2">
+        <methods>
+          <include name="TC2"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="TC3"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC2 -->
+      <class name="listeners.TestNg_ListenerTC1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="TC2"/>
+          <include name="TC3"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="listeners.TestNg_ListenerTC3">
+        <methods>
+          <include name="TC2"/>
+          <include name="TC3"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC3 -->
+      <class name="listeners.TestNg_ListenerTC2">
+        <methods>
+          <include name="TC2"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="TC3"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC2 -->
+      <class name="listeners.TestNg_ListenerTC1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="TC2"/>
+          <include name="TC3"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- listeners.TestNg_ListenerTC1 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

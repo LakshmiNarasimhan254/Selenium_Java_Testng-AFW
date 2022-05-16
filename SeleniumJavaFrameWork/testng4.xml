@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+	<groups>
+		<run>
+			<include name="functest" />
+		</run>
+	</groups>
+	<test name="Test1">
+		<classes>
+			<class name="listeners.TestNg_ListenerTC3" />
+		</classes>
+	</test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
