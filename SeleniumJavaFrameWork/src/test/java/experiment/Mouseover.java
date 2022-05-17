@@ -34,6 +34,7 @@ public class Mouseover {
 		System.out.println(s.substring(1, 4));
 		System.out.println(s.split("r")[1]);
 		
+		
 	}
 
 }
