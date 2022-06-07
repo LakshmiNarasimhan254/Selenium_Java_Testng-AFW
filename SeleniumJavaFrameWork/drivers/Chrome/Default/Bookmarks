@@ -1,0 +1,40 @@
+{
+   "checksum": "5041b9b5b4622778dac4448ff942407a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13297751344772906",
+            "guid": "ae949edb-0ae0-4974-b4f0-85f7abebe9bd",
+            "id": "5",
+            "name": "Welcome to Indian Railway Passenger Reservation Enquiry",
+            "type": "url",
+            "url": "https://www.indianrail.gov.in/enquiry/TBIS/TrainBetweenImportantStations.html?locale=en"
+         } ],
+         "date_added": "13297711490590818",
+         "date_modified": "13297751344772906",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13297711490590820",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13297711490590825",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="strBrowser" value="edge"/>
-  <test name="Test-1">
-    <parameter name="strBrowser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
     <classes>
-      <class name="listeners.TestNg_Parallel"/>
+      <class name="testNG.FirstTest"/>
+      <class name="testNG.SecondTest"/>
     </classes>
-  </test> <!-- Test-1 -->
-  <test name="Test-2">
-    <parameter name="strBrowser" value="edge"/>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
     <classes>
-      <class name="listeners.TestNg_Parallel"/>
+      <class name="testNG.FirstTest">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNG.FirstTest -->
+      <class name="testNG.SecondTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNG.SecondTest -->
     </classes>
-  </test> <!-- Test-2 -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
