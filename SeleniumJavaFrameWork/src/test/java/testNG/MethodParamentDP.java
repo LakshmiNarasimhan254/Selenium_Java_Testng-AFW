@@ -20,7 +20,7 @@ public class MethodParamentDP {
 		case "Sum": 
 			return new Object[][] {{2, 3 , 5}, {5, 7, 12}};
 		case "Diff": 
-			return new Object[][] {{2, 3, 1}, {5, 7, -2}};
+			return new Object[][] {{2, 3, 1}, {5, 7, 1}};
 		}
 		return null;
 		
