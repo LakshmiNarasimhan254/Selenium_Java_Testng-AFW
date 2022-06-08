@@ -39,7 +39,7 @@ public class WindowHandles {
 		//New Tab,New Window
 
 		//		String mainWindowHandle = driver.getWindowHandle();
-		//		System.out.println(mainWindowHandle);
+		//		System.out.println(mainWindowHandle); 
 		//
 		//		Set<String> allWindowHandles = driver.getWindowHandles();
 		//		Iterator<String> iterator = allWindowHandles.iterator();
