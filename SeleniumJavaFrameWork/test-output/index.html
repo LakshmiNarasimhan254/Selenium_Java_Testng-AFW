@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\laksh\AppData\Local\Temp\testng-eclipse-1089809279\testng-customsuite.xml</span>
+                    <span>C:\Users\laksh\AppData\Local\Temp\testng-eclipse--921818974\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG.MethodParamentDP" hash-for-method="Diff(2, 3, 1)">Diff(2, 3, 1)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG.AssertTest" hash-for-method="OpenBrowser">OpenBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,17 +116,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG.MethodParamentDP" hash-for-method="Diff(5, 7, -2)">Diff(5, 7, -2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG.MethodParamentDP" hash-for-method="Sum(2, 3, 5)">Sum(2, 3, 5)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG.MethodParamentDP" hash-for-method="Sum(5, 7, 12)">Sum(5, 7, 12)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG.AssertTest" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,23 +134,21 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testNG.MethodParamentDP</span>
+              <span class="class-name">testNG.AssertTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Diff(2, 3, 1)">
-                  </a> <!-- Diff(2, 3, 1) -->
-                  <span class="method-name">Diff</span>
-                  <span class="parameters">(2, 3, 1)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [-1] but found [1]
+                  <a name="OpenBrowser">
+                  </a> <!-- OpenBrowser -->
+                  <span class="method-name">OpenBrowser</span>
+                  <div class="stack-trace">java.lang.AssertionError: Not Matching expected [My Stores] but found [My Store]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at org.testng.Assert.assertEquals(Assert.java:399)
-	at testNG.MethodParamentDP.Diff(MethodParamentDP.java:32)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at testNG.AssertTest.OpenBrowser(AssertTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -194,31 +182,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testNG.MethodParamentDP</span>
+              <span class="class-name">testNG.AssertTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Diff(5, 7, -2)">
-                  </a> <!-- Diff(5, 7, -2) -->
-                  <span class="method-name">Diff</span>
-                  <span class="parameters">(5, 7, -2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Sum(2, 3, 5)">
-                  </a> <!-- Sum(2, 3, 5) -->
-                  <span class="method-name">Sum</span>
-                  <span class="parameters">(2, 3, 5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Sum(5, 7, 12)">
-                  </a> <!-- Sum(5, 7, 12) -->
-                  <span class="method-name">Sum</span>
-                  <span class="parameters">(5, 7, 12)</span>
+                  <a name="CloseBrowser">
+                  </a> <!-- CloseBrowser -->
+                  <span class="method-name">CloseBrowser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,7 +197,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\laksh\AppData\Local\Temp\testng-eclipse-1089809279\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\laksh\AppData\Local\Temp\testng-eclipse--921818974\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -235,7 +206,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testNG.MethodParamentDP&quot;/&gt;
+      &lt;class name=&quot;testNG.AssertTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -275,28 +246,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Diff')
-data.setCell(0, 2, 'testNG.MethodParamentDP')
-data.setCell(0, 3, 15);
+data.setCell(0, 1, 'OpenBrowser')
+data.setCell(0, 2, 'testNG.AssertTest')
+data.setCell(0, 3, 4362);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Sum')
-data.setCell(1, 2, 'testNG.MethodParamentDP')
-data.setCell(1, 3, 1);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Diff')
-data.setCell(2, 2, 'testNG.MethodParamentDP')
-data.setCell(2, 3, 1);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Sum')
-data.setCell(3, 2, 'testNG.MethodParamentDP')
-data.setCell(3, 3, 0);
+data.setCell(1, 1, 'CloseBrowser')
+data.setCell(1, 2, 'testNG.AssertTest')
+data.setCell(1, 3, 47);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 ms</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -307,6 +270,20 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CloseBrowser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Driver Closed After Testing</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">OpenBrowser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">This test verifies the current selenium compatibility with TestNG by launching the chrome driver</span>
+                <span class="reporter-method-output">Launching Google Chrome Driver version 81 for this test</span>
+                <span class="reporter-method-output">The website used was AutomationPractice for this test</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -322,24 +299,16 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testNG.MethodParamentDP</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testNG.AssertTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Diff(2, 3, 1)</span>
+                <span class="method-name">OpenBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Diff(5, 7, -2)</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Sum(2, 3, 5)</span>
-                <span class="method-start">21 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Sum(5, 7, 12)</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">4365 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

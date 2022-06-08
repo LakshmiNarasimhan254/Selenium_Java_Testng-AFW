@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 07 12:10:14 EDT 2022</td>
+<td>Started on:</td><td>Wed Jun 08 10:06:14 EDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (53 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4427 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNG.MethodParamentDP.Diff()'><b>Diff</b><br>Test class: testNG.MethodParamentDP<br>Parameters: 2, 3, 1</td>
-<td><div><pre>java.lang.AssertionError: expected [-1] but found [1]
+<td title='testNG.AssertTest.OpenBrowser()'><b>OpenBrowser</b><br>Test class: testNG.AssertTest<br/>
+<a href="#Output-1094199074" onClick='toggleBox("Output-1094199074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1094199074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1094199074">
+This test verifies the current selenium compatibility with TestNG by launching the chrome driver<br/>
+Launching Google Chrome Driver version 81 for this test<br/>
+The website used was AutomationPractice for this test<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Not Matching expected [My Stores] but found [My Store]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at org.testng.Assert.assertEquals(Assert.java:399)
-	at testNG.MethodParamentDP.Diff(MethodParamentDP.java:32)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at testNG.AssertTest.OpenBrowser(AssertTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -108,15 +116,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-</pre></div><a href='#' onClick='toggleBox("stack-trace684874119", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace684874119'><pre>java.lang.AssertionError: expected [-1] but found [1]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1094199074", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1094199074'><pre>java.lang.AssertionError: Not Matching expected [My Stores] but found [My Store]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at org.testng.Assert.assertEquals(Assert.java:399)
-	at testNG.MethodParamentDP.Diff(MethodParamentDP.java:32)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at testNG.AssertTest.OpenBrowser(AssertTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -142,8 +149,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 </pre></div></td>
-<td>0</td>
-<td>testNG.MethodParamentDP@783e6358</td></tr>
+<td>4</td>
+<td>testNG.AssertTest@2c6a3f77</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -153,20 +160,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNG.MethodParamentDP.Diff()'><b>Diff</b><br>Test class: testNG.MethodParamentDP<br>Parameters: 5, 7, -2</td>
+<td title='testNG.AssertTest.CloseBrowser()'><b>CloseBrowser</b><br>Test class: testNG.AssertTest<br/>
+<a href="#Output-817941759" onClick='toggleBox("Output-817941759", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817941759" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817941759">
+Driver Closed After Testing<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>testNG.MethodParamentDP@783e6358</td></tr>
-<tr>
-<td title='testNG.MethodParamentDP.Sum()'><b>Sum</b><br>Test class: testNG.MethodParamentDP<br>Parameters: 2, 3, 5</td>
-<td></td>
-<td>0</td>
-<td>testNG.MethodParamentDP@783e6358</td></tr>
-<tr>
-<td title='testNG.MethodParamentDP.Sum()'><b>Sum</b><br>Test class: testNG.MethodParamentDP<br>Parameters: 5, 7, 12</td>
-<td></td>
-<td>0</td>
-<td>testNG.MethodParamentDP@783e6358</td></tr>
+<td>testNG.AssertTest@2c6a3f77</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="val1" value="2" />
+<parameter name="val2" value="3" />
+	<test name="Test1">
+	<parameter name="val1" value="2" />
+    <parameter name="val2" value="4" />
+			<classes>
+			<class name="testNG.ParameterTest_Sum" />			
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test2">
+			<classes>
+			<class name="testNG.ParameterTest_Prod" />			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

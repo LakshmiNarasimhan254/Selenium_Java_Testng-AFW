@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[This test verifies the current selenium compatibility with TestNG by launching the chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Launching Google Chrome Driver version 81 for this test]]>
+    </line>
+    <line>
+      <![CDATA[The website used was AutomationPractice for this test]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2022-06-07T16:10:14Z" finished-at="2022-06-07T16:10:14Z">
+  <suite name="Default suite" duration-ms="4427" started-at="2022-06-08T14:06:14Z" finished-at="2022-06-08T14:06:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2022-06-07T16:10:14Z" finished-at="2022-06-07T16:10:14Z">
-      <class name="testNG.MethodParamentDP">
-        <test-method status="FAIL" signature="Diff(int, int, int)[pri:0, instance:testNG.MethodParamentDP@783e6358]" name="Diff" duration-ms="15" started-at="2022-06-07T12:10:14Z" data-provider="data-provider" finished-at="2022-06-07T12:10:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="4427" started-at="2022-06-08T14:06:14Z" finished-at="2022-06-08T14:06:19Z">
+      <class name="testNG.AssertTest">
+        <test-method status="FAIL" signature="OpenBrowser()[pri:-1, instance:testNG.AssertTest@2c6a3f77]" name="OpenBrowser" duration-ms="4362" started-at="2022-06-08T10:06:14Z" finished-at="2022-06-08T10:06:19Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [-1] but found [1]]]>
+              <![CDATA[Not Matching expected [My Stores] but found [My Store]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [-1] but found [1]
+              <![CDATA[java.lang.AssertionError: Not Matching expected [My Stores] but found [My Store]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at org.testng.Assert.assertEquals(Assert.java:399)
-	at testNG.MethodParamentDP.Diff(MethodParamentDP.java:32)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at testNG.AssertTest.OpenBrowser(AssertTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,72 +60,25 @@
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[This test verifies the current selenium compatibility with TestNG by launching the chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Launching Google Chrome Driver version 81 for this test]]>
+            </line>
+            <line>
+              <![CDATA[The website used was AutomationPractice for this test]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Diff -->
-        <test-method status="PASS" signature="Diff(int, int, int)[pri:0, instance:testNG.MethodParamentDP@783e6358]" name="Diff" duration-ms="1" started-at="2022-06-07T12:10:14Z" data-provider="data-provider" finished-at="2022-06-07T12:10:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-2]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testNG.AssertTest@2c6a3f77]" name="CloseBrowser" duration-ms="47" started-at="2022-06-08T10:06:19Z" finished-at="2022-06-08T10:06:19Z">
           <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Diff -->
-        <test-method status="PASS" signature="Sum(int, int, int)[pri:0, instance:testNG.MethodParamentDP@783e6358]" name="Sum" duration-ms="1" started-at="2022-06-07T12:10:14Z" data-provider="data-provider" finished-at="2022-06-07T12:10:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sum -->
-        <test-method status="PASS" signature="Sum(int, int, int)[pri:0, instance:testNG.MethodParamentDP@783e6358]" name="Sum" duration-ms="0" started-at="2022-06-07T12:10:14Z" data-provider="data-provider" finished-at="2022-06-07T12:10:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sum -->
-      </class> <!-- testNG.MethodParamentDP -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testNG.AssertTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

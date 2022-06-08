@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class MethodParamentDP {
+public class MethodParamtertDP {
 	
 	/*
 	 * Dataproviders also accept a method as a parameter,
