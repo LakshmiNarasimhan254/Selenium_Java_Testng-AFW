@@ -98,7 +98,7 @@ public class cookietest {
 	       		isSecure  = new Boolean(BooleanValue);	
 	       	}
 	       	Cookie ck = new Cookie(name,value,domain,path,expiry,isSecure);			
-	        System.out.println(ck);
+	        System.out.println(ck + "review");
 	        driver.manage().addCookie(ck); // This will add the stored cookie to your current session				
 	       	
 		} catch (IOException e) {
