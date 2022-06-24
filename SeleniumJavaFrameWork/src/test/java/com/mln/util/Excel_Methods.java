@@ -7,6 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Excel_Methods {
+	//Declaring the varaiables 
 	XSSFWorkbook wb;
 	XSSFSheet ws;
 
