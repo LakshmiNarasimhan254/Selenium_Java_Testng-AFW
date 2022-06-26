@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="val2" value="4"/>
+  <parameter name="val1" value="2"/>
+  <test name="Test1">
+    <parameter name="val2" value="4"/>
+    <parameter name="val1" value="2"/>
+    <classes>
+      <class name="testNG.ParameterTest_Sum"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="testNG.ParameterTest_Prod"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+2022/05/23-00:33:30.161 5310 Creating DB C:\Users\laksh\git\SeleniumJavaFrameWork1\SeleniumJavaFrameWork\drivers\Chrome\Default\IndexedDB\https_f9798714f63988b28f682f20d0a7bd7f.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
+2022/05/23-00:33:30.176 5310 Reusing MANIFEST C:\Users\laksh\git\SeleniumJavaFrameWork1\SeleniumJavaFrameWork\drivers\Chrome\Default\IndexedDB\https_f9798714f63988b28f682f20d0a7bd7f.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/23-00:33:32.420 5310 Level-0 table #5: started
+2022/05/23-00:33:32.428 5310 Level-0 table #5: 480 bytes OK
+2022/05/23-00:33:32.434 5310 Delete type=0 #3
+2022/05/23-00:33:32.435 5310 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
